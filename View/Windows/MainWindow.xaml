@@ -22,8 +22,8 @@
                 
             </MenuItem>
 
-            <MenuItem Header="Библиотека">
-                <MenuItem Name="BrowsingTheCatalogMi" Header="Просмотр каталога" Click="BrowsingTheCatalogMi_Click"/>
+            <MenuItem Name="LibraryMi" Visibility="Collapsed" Header="Библиотека">
+                <MenuItem Name="BrowseCatalogMi" Header="Просмотр каталога" Click="BrowseCatalogMi_Click"/>
                 <MenuItem Name="ManageCustomersMi" Header="Управление читателями" Click="ManageCustomersMi_Click"/>
                 <MenuItem Name="CirculationMi" Header="Управление абонементом" Click="CirculationMi_Click"/>
                 <MenuItem Name="ReportsMi" Header="Отчёт" Click="ReportsMi_Click"/>
@@ -32,5 +32,6 @@
         </Menu>
 
         <!--Фрэйм (принимает и отображает страницы) -->
+        <Frame Name ="MainFrame" Grid.Row="2"/>
     </Grid>
 </Window>
