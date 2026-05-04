@@ -1,4 +1,5 @@
-﻿using Bookmaster34.View.Pages;
+﻿using Bookmaster34.Models;
+using Bookmaster34.View.Pages;
 using Bookmaster34.View.Windows;
 using System.Text;
 using System.Windows;
@@ -44,6 +45,8 @@ namespace Bookmaster34
 
         private void LogoutMi_Click(object sender, RoutedEventArgs e)
         {
+            CredentialsService.ClearAdministrator();
+
                 LibraryMi.Visibility = Visibility.Collapsed;
                 LogoutMi.Visibility = Visibility.Collapsed;
                 LoginMi.Visibility = Visibility.Visible;

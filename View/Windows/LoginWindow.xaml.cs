@@ -30,5 +30,21 @@ namespace Bookmaster34.View.Windows
             // DialogResult возвращает результат работы диалогового окна
             DialogResult = true;
         }
+
+        private void LoginBtn_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+        private void Cancel_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
